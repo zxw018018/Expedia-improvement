@@ -1,0 +1,32 @@
+#logo{
+    height:233px;
+    margin-top:120px;
+    margin-right: 60px;
+}
+#expediaLogo{
+    width:20%;
+    height: auto;
+    margin-top: 20px;
+}
+#improvedLogo{
+    width:5%;
+    height:auto;
+    filter: brightness(.5);
+    -webkit-filter: brightness(.5);
+    margin-top:20px;
+    transform: scaleX(-1) rotate(230deg);
+}
+#search{
+    margin-top: 50px;
+    margin-left: 34.5%;
+    width:500px;
+    height: 40px;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/61/4a/36/614a3616b113418fa924f1945bf910cd.jpg");
+    background-size: cover;
+    background-position: center;
+}
+html{
+    height: 100%;
+}
