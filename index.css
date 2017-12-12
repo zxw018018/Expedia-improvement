@@ -1,32 +1,56 @@
-#logo{
-    height:233px;
-    margin-top:120px;
-    margin-right: 60px;
-}
-#expediaLogo{
-    width:20%;
-    height: auto;
-    margin-top: 20px;
-}
-#improvedLogo{
-    width:5%;
-    height:auto;
-    filter: brightness(.5);
-    -webkit-filter: brightness(.5);
-    margin-top:20px;
-    transform: scaleX(-1) rotate(230deg);
-}
-#search{
-    margin-top: 50px;
-    margin-left: 34.5%;
-    width:500px;
-    height: 40px;
+
+ /* .container{
+    margin-top: 100px;
+    
+}  */
+
+html{
+    height: 100%;
 }
 body{
     background-image: url("https://i.pinimg.com/originals/61/4a/36/614a3616b113418fa924f1945bf910cd.jpg");
     background-size: cover;
     background-position: center;
 }
-html{
-    height: 100%;
+
+.container{
+    margin-top: 120px;
+    margin-left: 30%;
 }
+
+#logo{
+    width:400px;
+    max-width:50%;
+    margin-left:8%;
+}
+
+/* .logoContainer{
+    margin-top: 100px;
+    
+    max-width: 30%;
+} */
+
+/* #expediaLogo{
+    
+    width:190px;
+    height: auto;
+    
+}
+#improvedLogo{
+    width:50px;
+    height:auto;
+    filter: brightness(.5);
+    -webkit-filter: brightness(.5);
+    
+    transform: scaleX(-1) rotate(230deg);
+} */
+
+ .col-lg-6 {
+    margin-top: 70px;
+   max-width: 50%;
+   
+}
+
+
+
+
