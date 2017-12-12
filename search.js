@@ -10,7 +10,7 @@ searchButton.addEventListener("click",function()
     inputID.value = "";
 });
 
-Papa.parse(predicted_with_pandas.csv, config);
+
 
 
 
