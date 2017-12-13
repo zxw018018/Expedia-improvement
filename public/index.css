@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin-top: 120px;
+    margin-left: 30%;
+}
+
+#logo{
+    width:400px;
+    max-width:50%;
+    margin-left:8%;
+}
+
+ .col-lg-6 {
+    margin-top: 70px;
+   max-width: 50%;
+   
+}
+
+.pie {
+    margin-top: 200px;
+  }
+  
+  .num0{
+    position: absolute; 
+    bottom: 175px; 
+    left: 750px; 
+    width: 400px; 
+    font-weight: bold; 
+    color: black;
+    font-size: 20px;
+}
+
+
+  .num1{
+      position: absolute; 
+      bottom: 220px; 
+      left: 895px; 
+      width: 400px; 
+      font-weight: bold; 
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .num2{
+      position: absolute; 
+      bottom: 70px; 
+      left: 820px; 
+      width: 400px; 
+      font-weight: bold; 
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .num3{
+      position: absolute; 
+      bottom: 140px; 
+      left: 690px; 
+      width: 400px; 
+      font-weight: bold; 
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .num4{
+      position: absolute; 
+      bottom: 250px; 
+      left: 710px; 
+      width: 400px; 
+      font-weight: bold; 
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .num5{
+      position: absolute; 
+      bottom: 285px; 
+      left: 770px; 
+      width: 400px; 
+      font-weight: bold; 
+      color: #fff;
+      font-size: 20px;
+  }

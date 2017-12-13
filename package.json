@@ -1,0 +1,30 @@
+{
+  "name": "expedia-improvement",
+  "version": "1.0.0",
+  "description": "Expedia recommendation improvement",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "css": "^2.2.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "mysql": "^2.15.0",
+    "node": "^9.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxw018018/Expedia-improvement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxw018018/Expedia-improvement/issues"
+  },
+  "homepage": "https://github.com/zxw018018/Expedia-improvement#readme"
+}
