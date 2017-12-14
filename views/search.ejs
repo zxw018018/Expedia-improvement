@@ -1,4 +1,88 @@
-<% include partials/header %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Expedia Improvement Recommendation System</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.4/nv.d3.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link href="search.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.min.js"></script>
+
+<div class="page-bg"></div>
+
+    
+  <nav class="navbar navColor navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Expedia Improved</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">Expedia Official Site
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+        </ul>
+        <form class="navbar-form navbar-left">
+
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">My Trips</a>
+          </li>
+          <li>
+            <a href="#">简体中文</a>
+          </li>
+        </ul>
+      </div>
+   
+    </div>
+   
+  </nav>
+
+
 
   <div class="container">
 
@@ -27,11 +111,14 @@
         <title>Pie Chart</title>
         <body>
 
- 
+ <div class="nums">
     
+
+    <center>
 <div class="num0" >
                 <p>userID = <%= userID[0]%></p>
               </div>
+</center>
 
 <div class="num1">
   <p><%= userID[1]%></p>
@@ -54,10 +141,12 @@
         </div>
         
 
+         </div>
+
         <script>
         
         var width = 800*2,
-            height = 300,
+            height = 300*1.1,
             radius = Math.min(width, height) / 2 - 10;
         
         //var data = d3.range(5).map(Math.random).sort(d3.descending);
@@ -84,7 +173,7 @@
 
         
         arcs.append("path")
-            .attr("fill", function(d, i) { return color(i); })
+            .attr("fill", function(d, i) { return color(i);})
           .transition()
             .ease("bounce")
             .duration(2000)

@@ -57,7 +57,7 @@ app.listen(3000, function(){
 });
 
 function get_info(userID, callback){    
-    var sql = "select *" + " from expedia where id = "+userID;   
+    var sql = "select *" + " from expedia_data where id = "+userID;   
     connection.query(sql, function(err, results){    
           if (err){    
             throw err; 

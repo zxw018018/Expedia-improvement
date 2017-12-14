@@ -7,7 +7,7 @@ html{
     background-image: url("/background.jpg");
     background-size: cover;
     background-position: center;
-  
+    filter: blur(10px);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -39,14 +39,22 @@ html{
     margin-top: 130px;
   }
   
+
+.nums{
+    position: absolute; 
+    bottom: 45px; 
+    left: 5px; 
+}
+
+
   .num0{
     position: absolute; 
-    bottom: 175px; 
-    left: 750px; 
+    bottom: 182px; 
+    left: 595px;  
     width: 400px; 
     font-weight: bold; 
     color: black;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -56,46 +64,46 @@ html{
       left: 895px; 
       width: 400px; 
       font-weight: bold; 
-      color: #fff;
+      color: white;
       font-size: 20px;
   }
   
   .num2{
       position: absolute; 
       bottom: 70px; 
-      left: 820px; 
+      left: 815px; 
       width: 400px; 
       font-weight: bold; 
-      color: #fff;
+      color: white;
       font-size: 20px;
   }
   
   .num3{
       position: absolute; 
       bottom: 140px; 
-      left: 690px; 
+      left: 675px; 
       width: 400px; 
       font-weight: bold; 
-      color: #fff;
+      color: white;
       font-size: 20px;
   }
   
   .num4{
       position: absolute; 
-      bottom: 250px; 
-      left: 710px; 
+      bottom: 258px; 
+      left: 700px; 
       width: 400px; 
       font-weight: bold; 
-      color: #fff;
+      color: white;
       font-size: 20px;
   }
   
   .num5{
       position: absolute; 
-      bottom: 285px; 
-      left: 770px; 
+      bottom: 300px; 
+      left: 760px; 
       width: 400px; 
       font-weight: bold; 
-      color: #fff;
+      color: white;
       font-size: 20px;
   }
