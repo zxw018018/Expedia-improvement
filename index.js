@@ -13,9 +13,9 @@ app.set("view engine", "ejs");
 var userID = [-1,-1,-1,-1,-1,-1];
 
 var connection = mysql.createConnection({  
-    host: "127.0.0.1",   
+    host: "big-data-expedia-recommendation-improvement.c9s0bldix8vs.us-east-2.rds.amazonaws.com",   
     user: "root",   
-    password: "123456",  
+    password: "12345678",  
     database: "expedia"  
     });    
 
